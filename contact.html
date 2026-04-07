@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Zekai Wan Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <h1 class="site-title">Zekai Wan Portfolio</h1>
+
+      <button id="darkModeToggle" class="dark-mode-button" type="button">Dark Mode</button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="resume.html" class="nav-link">Resume</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+          <li><a href="process.html" class="nav-link">Process</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/zekai-wan-b24306228/" class="nav-link" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-page">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-intro">
+          I’m open to internships, collaborations, and professional opportunities.
+          You can reach me using the contact form below or connect with me through LinkedIn.
+        </p>
+
+        <div class="contact-layout">
+          <section class="contact-form-section">
+            <h3>Get in Touch</h3>
+
+            <form class="contact-form" action="#" method="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+              </div>
+
+              <button type="submit" class="button primary-button">Send Message</button>
+            </form>
+          </section>
+
+          <aside class="contact-info-section">
+            <h3>Contact Information</h3>
+            <p>Email: zekai.wan@mail.utoronto.ca</p>
+
+            <div class="media-embed">
+              <h3>Location</h3>
+              <iframe
+                src="https://www.google.com/maps?q=University%20of%20Toronto%20Mississauga&output=embed"
+                width="100%"
+                height="250"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Map showing University of Toronto Mississauga"
+              ></iframe>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Zekai Wan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
